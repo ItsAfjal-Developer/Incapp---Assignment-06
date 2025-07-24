@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a2a2a2;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/banner-1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+}
+
+header > div {
+  width: 400px;
+  text-align: center;
+}
+
+header > div > h1,
+header > div > a {
+  color: white;
+}
+
+header > div > h3 {
+  color: #f8f532;
+  padding: 10px;
+}
+
+header > div > p {
+  color: rgb(233, 233, 233);
+  padding-bottom: 10px;
+}
+
+header > div > a {
+  text-decoration: none;
+}
+
+header > div > hr {
+  background-color: #f8f532;
+  height: 7px;
+  border: none;
+  width: 100px;
+  margin-left: 150px;
+}
+
+#sec-1,
+#sec-2 {
+  padding: 30px;
+  text-align: center;
+}
+
+#sec-1 > div {
+  background-color: rgb(226, 225, 225);
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+#sec-1 > div > img {
+  height: 40px;
+}
+
+#sec-1 > div > a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#sec-2 > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+  text-align: left;
+  margin: 5px;
+}
+
+#sec-2 > div > img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#sec-2 h3 {
+  border-bottom: 2px solid #f8f532;
+  width: max-content;
+}
+
+#sec-2 p {
+  padding: 10px 0;
+  color: rgb(255, 238, 238);
+}
+
+footer {
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+}
+
+footer > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+}
+
+footer span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+footer p {
+  text-transform: uppercase;
+}
