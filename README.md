@@ -1,6 +1,6 @@
 # Incapp - Assignment 06<sup>th</sup>
 
-This is the **06<sup>th</sup> Assignment Project** from **Incapp Institute**, 
+This is the **06<sup>th</sup> Assignment Project** from **Incapp Institute** , 
 Created as part of the Frontend Development Training. 
 The Assignment Demonstrates Practical use of **HTML** and **CSS** to Create a Visually 
 Appealing and Responsive Layout.
